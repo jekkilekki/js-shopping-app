@@ -142,35 +142,6 @@
     z-index: 0;
   }
   
-  /* Module */
-  .app-module {
-    transition: all 0.3s;
-    display: none;
-    position: absolute;
-    z-index: 998;
-    background: rgba(0,0,0,0.76);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
-  .app-module-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 999;
-    background: white;
-    color: #232323;
-    width: 95%;
-    padding: 1rem;
-    box-sizing: border-box;
-    border-radius: 20px;
-    box-shadow: 2px 4px 8px rgba(0,0,0,0.54);
-  }
-  
   .screen-content {
     position: relative;
     top: 50px;
@@ -789,8 +760,134 @@
     letter-spacing: 2px;
     font-size: 1.2rem;
     min-width: 60%;
+    cursor: pointer;
   }
   
   /*---------------------------------------
    * 4. Checkout screen
    *---------------------------------------*/
+   /* Module */
+  .app-module {
+    transition: all 0.3s;
+    display: none;
+    position: absolute;
+    z-index: 998;
+    background: rgba(0,0,0,0.76);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .app-module h2 {
+    font-size: 1rem;
+  }
+  .app-module-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background: white;
+    color: #232323;
+    width: 95%;
+    max-height: 90%;
+    overflow-y: scroll;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.54);
+  }
+  .module-header {
+    color: white;
+    background: mediumaquamarine;
+    padding: 0.6rem 1rem;
+    margin: -1.1rem -1rem 0;
+    border-radius: 20px 20px 0 0;
+  }
+  .module-content-container {
+    border: 1px solid #d4dce4;
+    border-radius: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(212,220,228,0.5) 60%);
+    margin: 1rem -0.5rem -0.5rem;
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+    position: relative;
+  }
+  .module-content-container i {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: coral;
+  }
+  .module-content-header {
+    margin: 0.5rem 0 -0.5rem;
+    font-size: 1rem;
+  }
+  .module-content-list {
+    list-style: none;
+    font-size: 0.8rem;
+    padding: 0.75rem 0.5rem;
+    margin: 0.35rem -0.5rem;
+    border: 1px solid #d4dce4;
+    border-top: none;
+  }
+  .module-content-list li {
+    padding: 0.35rem 0;
+  }
+  .order-summary {
+    font-size: 0.8rem;
+    border: 1px solid #d4dce4;
+    border-radius: 5px;
+    list-style: none;
+    padding: 1rem 0.5rem;
+    margin: -0.5rem 0 1rem;
+  }
+  .order-summary h3 {
+    color: mediumaquamarine;
+    margin: 0;
+    background: rgba(212,220,228,0.5);
+    padding: 0.5rem;
+    margin: -1rem -0.5rem 0rem;
+  }
+  .order-summary-item {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(212,220,228,0.5);
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+  }
+  .order-summary p {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .order-summary-item strong {
+    font-weight: bold;
+    text-align: right;
+  }
+  .adjusted-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: -0.5rem 0 1rem;
+  }
+  .terms {
+    text-align: center;
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.6rem;
+    opacity: 0.6;
+  }
+  .pay-button {
+    background: coral;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.4rem;
+    width: 100%;
+  }

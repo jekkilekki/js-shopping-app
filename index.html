@@ -12,513 +12,514 @@
 <body>
   <div class="store-background"></div>
 
-<main class="shopping-app">
-  <div id="iphone-info">
-    <div id="time">0:00</div>
-    <ul id="icons">
-      <li><i class="fas fa-signal"></i></li>
-      <li><i class="fas fa-wifi"></i></li>
-      <li><i class="fas fa-battery-three-quarters"></i></li>
-    </ul>
-    <i class="read-me-button fa fa-ellipsis-v"></i>
-  </div>
-
-  <section class="screen list-page active">
-    <aside class="app-module">
-      <div class="app-module-content">
-        <h1 class="module-header"></h1>
-        <div class="module-content"></div>
-      </div>
-    </aside>
-
-    <div class="screen-content">
-      <div class="user-info">
-        <div id="go-to-cart" class="shopping-cart">
-          <i class="cart-icon fa fa-shopping-cart"></i>
-          <p class="shopping-cart-count">0</p>
+  <main class="shopping-app">
+    <div id="iphone-info">
+      <div id="time">0:00</div>
+      <ul id="icons">
+        <li><i class="fas fa-signal"></i></li>
+        <li><i class="fas fa-wifi"></i></li>
+        <li><i class="fas fa-battery-three-quarters"></i></li>
+      </ul>
+      <i class="read-me-button fa fa-ellipsis-v"></i>
+    </div>
+  
+    <section class="screen list-page active">
+      <aside class="app-module">
+        <div class="app-module-content">
+          <h1 class="module-header"></h1>
+          <div class="module-content"></div>
         </div>
-      </div>
-
-      <img class="logo" alt="logo" src="https://pngimage.net/wp-content/uploads/2018/06/store-logo-png-1.png" />
-
-      <div class="add-item-container">
-        <i class="fa fa-shopping-bag"></i>
-        <input id="add-item-input" type="text" placeholder="Add to list" />
-        <button class="button add-item-button"><i class="fa fa-plus"></i></button>
-      </div>
-
-      <nav class="app-nav">
-        <ul class="app-nav-container">
-          <li id="shopping-list-button" class="app-nav-item active"><i class="fa fa-list-ol"></i>Shopping List</li>
-          <li id="search-store-button" class="app-nav-item"><i class="fa fa-store"></i>Search Store</li>
-          <li id="shopping-cart-button" class="app-nav-item"><i class="fa fa-shopping-cart"></i>View Cart</li>
-        </ul>
-      </nav>
-
-      <section id="pages" class="page-one">
-
-        <!-- Shopping List Screen Content -->
-        <div id="shopping-list-screen">
-          <ul id="shopping-list" class="list-section active">
-          <li class="list-item hot" draggable="true">coffee beans
-            <span class="price">$16.25</span>
-          </li>
-          <li class="list-item hot" draggable="true">chicken breast<span class="price">$16.25</span></li>
-          <li class="list-item hot" draggable="true">bike gloves<span class="price">$16.25</span></li>
-          <li class="list-item hot" draggable="true">rooibos tea<span class="price">$16.25</span></li>
-          <li class="list-item hot" draggable="true">new computer<span class="price">$16.25</span></li>
-          <li class="list-item hot" draggable="true">Nintendo Switch + BOTW<span class="price">$16.25</span></li>
-        </ul>
-<!--           <div class="error-message">No items found in your list. Add some above.</div> -->
-          <div class="button-container">
-          <button class="button empty-cart-button">
-      Empty cart
-    </button>
-          <div class="button-divider"></div>
-          <button class="button delete-all-button">
-      Delete list
-    </button>
-          <div class="button-divider"></div>
-          <button class="button reset-list-button">
-      Reset all
-    </button>
+      </aside>
+  
+      <div class="screen-content">
+        <div class="user-info">
+          <div id="go-to-cart" class="shopping-cart">
+            <i class="cart-icon fa fa-shopping-cart"></i>
+            <p class="shopping-cart-count">0</p>
+          </div>
         </div>
+  
+        <img class="logo" alt="logo" src="https://pngimage.net/wp-content/uploads/2018/06/store-logo-png-1.png" />
+  
+        <div class="add-item-container">
+          <i class="fa fa-shopping-bag"></i>
+          <input id="add-item-input" type="text" placeholder="Add to list" />
+          <button class="button add-item-button"><i class="fa fa-plus"></i></button>
         </div>
-
-        <!-- Search Store Screen Content -->
-        <div id="store-search" class="list-section">
-          <div class="store-filter-container">
-            <p class="search-results">
-              <!--               <span class="search-query-quantity"></span> results for: <span class="search-query-result"></span> -->
-            </p>
-            <div class="store-filter-tools">
-              <select class="price-filter">
-                <option value="rel">Relevance</option>
-                <option value="low">Lowest price</option>
-                <option value="high">Highest price</option>
-              </select>
-              <i class="fa fa-th store-view"></i>
+  
+        <nav class="app-nav">
+          <ul class="app-nav-container">
+            <li id="shopping-list-button" class="app-nav-item active"><i class="fa fa-list-ol"></i>Shopping List</li>
+            <li id="search-store-button" class="app-nav-item"><i class="fa fa-store"></i>Search Store</li>
+            <li id="shopping-cart-button" class="app-nav-item"><i class="fa fa-shopping-cart"></i>View Cart</li>
+          </ul>
+        </nav>
+  
+        <section id="pages" class="page-one">
+  
+          <!-- Shopping List Screen Content -->
+          <div id="shopping-list-screen">
+            <ul id="shopping-list" class="list-section active">
+            <li class="list-item hot" draggable="true">coffee beans
+              <span class="price">$16.25</span>
+            </li>
+            <li class="list-item hot" draggable="true">chicken breast<span class="price">$16.25</span></li>
+            <li class="list-item hot" draggable="true">bike gloves<span class="price">$16.25</span></li>
+            <li class="list-item hot" draggable="true">rooibos tea<span class="price">$16.25</span></li>
+            <li class="list-item hot" draggable="true">new computer<span class="price">$16.25</span></li>
+            <li class="list-item hot" draggable="true">Nintendo Switch + BOTW<span class="price">$16.25</span></li>
+          </ul>
+  <!--           <div class="error-message">No items found in your list. Add some above.</div> -->
+            <div class="button-container">
+            <button class="button empty-cart-button">
+        Empty cart
+      </button>
+            <div class="button-divider"></div>
+            <button class="button delete-all-button">
+        Delete list
+      </button>
+            <div class="button-divider"></div>
+            <button class="button reset-list-button">
+        Reset all
+      </button>
+          </div>
+          </div>
+  
+          <!-- Search Store Screen Content -->
+          <div id="store-search" class="list-section">
+            <div class="store-filter-container">
+              <p class="search-results">
+                <!--               <span class="search-query-quantity"></span> results for: <span class="search-query-result"></span> -->
+              </p>
+              <div class="store-filter-tools">
+                <select class="price-filter">
+                  <option value="rel">Relevance</option>
+                  <option value="low">Lowest price</option>
+                  <option value="high">Highest price</option>
+                </select>
+                <i class="fa fa-th store-view"></i>
+              </div>
+            </div>
+            <ul id="store-items" class="store-items grid">
+              <!-- Coffee -->
+              <li class="store-list-item" data-item-type="coffee" data-item-price="9.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/81P2cJ8QrIL._AC_UL320_SR172,320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Wicked Joe Bella Maria coffee beans, 12 oz.</p>
+                  <p class="store-list-item-price">$9.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="coffee" data-item-price="10.59">
+                <div class="store-list-item-img-container">
+                  <img src="https://www.vitacost.com/Images/Products/500/Wicked-Joe/Wicked-Joe-Organic-Ground-Coffee-Dark-Roast-Wicked-Italian-873562001866.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Wicked Joe Wicked Italian coffee beans, 12 oz.</p>
+                  <p class="store-list-item-price">$10.59</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item selected" data-item-type="coffee" data-item-price="8.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/81A1wMoersL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Wicked Joe Big House coffee beans, 12 oz.</p>
+                  <p class="store-list-item-price">$8.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="coffee" data-item-price="9.79">
+                <div class="store-list-item-img-container">
+                  <img src="https://ship.kroger.com/img/Products/500/Wicked-Joe/Wicked-Joe-Organic-Ground-Coffee-Medium-Roast-Sumatra-873562000906.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Wicked Joe Sumatra coffee beans, 12 oz.</p>
+                  <p class="store-list-item-price">$9.79</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="coffee" data-item-price="10.29">
+                <div class="store-list-item-img-container">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/81Cp9-9O4cL._AC_UL320_SR172,320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Wicked Joe Wicked French coffee beans, 12 oz.</p>
+                  <p class="store-list-item-price">$10.29</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="coffee" data-item-price="10.29">
+                <div class="store-list-item-img-container">
+                  <img src="https://ship.kroger.com/img/Products/500/Wicked-Joe/Wicked-Joe-Organic-Decaf-Ground-Coffee-Dark-Roast-Wicked-French-873562000913.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Wicked Joe Wicked French Decaf coffee beans, 12 oz.</p>
+                  <p class="store-list-item-price">$10.29</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+  
+              <!-- Protein -->
+              <li class="store-list-item" data-item-type="protein" data-item-price="40.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71K5dv0r50L._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Musclepharm Combat Chocolate Protein Powder, 64 oz</p>
+                  <p class="store-list-item-price">$40.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="protein" data-item-price="89.00">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71MP6StSJiL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Beyond Raw ISO-Peptide Anabolic Protein Powder, 30 servings</p>
+                  <p class="store-list-item-price">$89.00</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="protein" data-item-price="29.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71C+RqPviNL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">100% Whey Protein, 2 lb.</p>
+                  <p class="store-list-item-price">$29.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="protein" data-item-price="42.89">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71pTf0qr-HL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Optimum Nutrition 100% Whey Gold Standard, 2 lb.</p>
+                  <p class="store-list-item-price">$42.89</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="protein" data-item-price="59.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/91ruQZ2T3jL._SX522_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Nutrabio Classic Whey Protein Powder, 5 lb.</p>
+                  <p class="store-list-item-price">$59.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="protein" data-item-price="89.00">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/51w9jfT4AxL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Royal Whey Protein Isolate, 5 lb.</p>
+                  <p class="store-list-item-price">$89.00</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+  
+              <!-- Chicken -->
+              <li class="store-list-item" data-item-type="chicken" data-item-price="24.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/81W5RmJiQPL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Omaha Steaks 8 Boneless Chicken Breasts, 2 lb. pkg.</p>
+                  <p class="store-list-item-price">$24.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="chicken" data-item-price="86.78">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/41bUWP1d3IL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Tyson Red Label, Fully Cooked Grilled Chicken Breast, 40 pieces</p>
+                  <p class="store-list-item-price">$86.78</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="chicken" data-item-price="19.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/81tqUd4VXUL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Omaha Steaks 8 Italian Chicken Breasts, 3 oz. ea.</p>
+                  <p class="store-list-item-price">$19.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="chicken" data-item-price="99.00">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/31ZDIFly3DL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Today Gourmet - Lemon Herb Chicken, 18 @ 5 oz.</p>
+                  <p class="store-list-item-price">$99.00</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="chicken" data-item-price="68.02">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/41UGTuou7rL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Tyson Red Label Golden Crispy Breaded Chicken Breast Patty, 5 lb.</p>
+                  <p class="store-list-item-price">$68.02</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="chicken" data-item-price="14.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/81vqw-oa7zL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Omaha Steaks 4 Chicken Fried Chicken, 4.5 oz.</p>
+                  <p class="store-list-item-price">$14.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+  
+              <!-- Tea -->
+              <li class="store-list-item" data-item-type="tea" data-item-price="10.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/519mpZhG+TL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Twinings of London English Breakfast Black Tea Bags, 100 count</p>
+                  <p class="store-list-item-price">$10.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="tea" data-item-price="22.80">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/51XcYsV4RYL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Twinings of London Blackcurrant Breeze Black Tea Bags, 20 count</p>
+                  <p class="store-list-item-price">$22.80</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="tea" data-item-price="25.60">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/51Tkm7jQK8L._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Twinings of London Lady Grey Black Tea Bags, 20 count</p>
+                  <p class="store-list-item-price">$25.60</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="tea" data-item-price="36.06">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/511NRVx8PoL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Twinings of London Irish Breakfast Black Tea Bags, 50 count</p>
+                  <p class="store-list-item-price">$36.06</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="tea" data-item-price="17.64">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/51EpUQ+Jj1L._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Twinings of London Camomile, Honey & Vanilla Herbal Tea, 20 count</p>
+                  <p class="store-list-item-price">$17.64</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="tea" data-item-price="20.85">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/51wHht0TFUL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Twinings of London Pure Rooibos Herbal Red Tea Bags, 20 count</p>
+                  <p class="store-list-item-price">$20.85</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+  
+              <!-- Legos -->
+              <li class="store-list-item" data-item-type="lego" data-item-price="36.74">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/91dKfDlGK2L._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">LEGO Ninjago Movie Green Ninja Mech Dragon 70612, 544 pieces</p>
+                  <p class="store-list-item-price">$36.74</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="lego" data-item-price="69.00">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71fmrWjDLUL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">LEGO Ninjago Movie Fire Mech 70615, 944 pieces</p>
+                  <p class="store-list-item-price">$69.00</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="lego" data-item-price="81.49">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/91-2LpXYsPL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">LEGO Ninjago Movie Quake Mech 70632, 1202 pieces</p>
+                  <p class="store-list-item-price">$81.49</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="lego" data-item-price="68.31">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71tAyit2bVL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">LEGO Ninjago Movie, Garma Mecha Man 70613, 747 pieces</p>
+                  <p class="store-list-item-price">$68.31</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="lego" data-item-price="107.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/61NhzsM22GL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">LEGO Ninjago Movie Temple Ultimate Ultimate Weapon 70617, 1403 pieces</p>
+                  <p class="store-list-item-price">$107.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="lego" data-item-price="229.95">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71Zglj2BdyL._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">LEGO Ninjago Movie Destiny's Bounty, 2295 pieces</p>
+                  <p class="store-list-item-price">$229.95</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+  
+              <!-- Other -->
+              <li class="store-list-item" data-item-type="bike" data-item-price="14.99">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/61044OTtt9L._AC_UY218_QL90_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Fox Racing Ranger Mountain Bike Gloves</p>
+                  <p class="store-list-item-price">$14.99</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="bike">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71QEzBQ3hGL._AC_UY218_QL90_.jpg" />
+                </div>
+                <div class="store-list-item-meta" data-item-price="54.95">
+                  <p class="store-list-item-title">Giro Fixture Bike Helmet with MIPS</p>
+                  <p class="store-list-item-price">$54.95</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="bike" data-item-price="1499.00">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71nfqEsAp1L._AC_UL320_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Carbon Road Bike, SAVA HERD 6.0 T800 Carbon Fiber 700C Road Bicycle</p>
+                  <p class="store-list-item-price">$1,499.00</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="game" data-item-price="405.00">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/711uJA2i+JL._AC_UY218_QL90_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Nintendo Switch Console w/ Mario Kart 8 Deluxe</p>
+                  <p class="store-list-item-price">$405.00</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="game" data-item-price="199.96">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/71qmF0FHj7L._AC_UY218_QL90_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">Nintendo Switch Lite - Turquoise</p>
+                  <p class="store-list-item-price">$199.96</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+              <li class="store-list-item" data-item-type="game" data-item-price="49.94">
+                <div class="store-list-item-img-container">
+                  <img src="https://m.media-amazon.com/images/I/511M6ML2t7L._AC_UY218_QL90_.jpg" />
+                </div>
+                <div class="store-list-item-meta">
+                  <p class="store-list-item-title">The Legend of Zelda: Breath of the Wild - Nintendo Switch</p>
+                  <p class="store-list-item-price">$49.94</p>
+                  <a class="button store-list-item-to-cart">Add to Cart</a>
+                </div>
+              </li>
+            </ul>
+  <!--           <div class="error-message">No items found for your search query. Please try again.</div> -->
+          </div>
+  
+          <!-- View Cart Screen Content -->
+          <div id="view-cart" class="list-section">
+            <ul class="cart-progress-container">
+              <li class="cart-progress-indicator active">Review</li>
+              <li class="cart-progress-indicator">Payment</li>
+              <li class="cart-progress-indicator">Complete</li>
+            </ul>
+            <ul id="cart-items" class="store-items list">
+              <!-- To be built while shopping -->
+            </ul>
+  <!--           <div class="error-message">No items found in your cart. Let's go shopping!</div> -->
+            <div class="button-container payment-container">
+              <p class="subtotal">Total: <strong>$<span id="cartTotalPrice">0.00</span></strong></p>
+              <button class="checkout-button">Checkout (0)</button>
             </div>
           </div>
-          <ul id="store-items" class="store-items grid">
-            <!-- Coffee -->
-            <li class="store-list-item" data-item-type="coffee" data-item-price="9.99">
-              <div class="store-list-item-img-container">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/81P2cJ8QrIL._AC_UL320_SR172,320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Wicked Joe Bella Maria coffee beans, 12 oz.</p>
-                <p class="store-list-item-price">$9.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="coffee" data-item-price="10.59">
-              <div class="store-list-item-img-container">
-                <img src="https://www.vitacost.com/Images/Products/500/Wicked-Joe/Wicked-Joe-Organic-Ground-Coffee-Dark-Roast-Wicked-Italian-873562001866.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Wicked Joe Wicked Italian coffee beans, 12 oz.</p>
-                <p class="store-list-item-price">$10.59</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item selected" data-item-type="coffee" data-item-price="8.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/81A1wMoersL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Wicked Joe Big House coffee beans, 12 oz.</p>
-                <p class="store-list-item-price">$8.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="coffee" data-item-price="9.79">
-              <div class="store-list-item-img-container">
-                <img src="https://ship.kroger.com/img/Products/500/Wicked-Joe/Wicked-Joe-Organic-Ground-Coffee-Medium-Roast-Sumatra-873562000906.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Wicked Joe Sumatra coffee beans, 12 oz.</p>
-                <p class="store-list-item-price">$9.79</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="coffee" data-item-price="10.29">
-              <div class="store-list-item-img-container">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/81Cp9-9O4cL._AC_UL320_SR172,320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Wicked Joe Wicked French coffee beans, 12 oz.</p>
-                <p class="store-list-item-price">$10.29</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="coffee" data-item-price="10.29">
-              <div class="store-list-item-img-container">
-                <img src="https://ship.kroger.com/img/Products/500/Wicked-Joe/Wicked-Joe-Organic-Decaf-Ground-Coffee-Dark-Roast-Wicked-French-873562000913.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Wicked Joe Wicked French Decaf coffee beans, 12 oz.</p>
-                <p class="store-list-item-price">$10.29</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-
-            <!-- Protein -->
-            <li class="store-list-item" data-item-type="protein" data-item-price="40.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71K5dv0r50L._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Musclepharm Combat Chocolate Protein Powder, 64 oz</p>
-                <p class="store-list-item-price">$40.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="protein" data-item-price="89.00">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71MP6StSJiL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Beyond Raw ISO-Peptide Anabolic Protein Powder, 30 servings</p>
-                <p class="store-list-item-price">$89.00</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="protein" data-item-price="29.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71C+RqPviNL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">100% Whey Protein, 2 lb.</p>
-                <p class="store-list-item-price">$29.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="protein" data-item-price="42.89">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71pTf0qr-HL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Optimum Nutrition 100% Whey Gold Standard, 2 lb.</p>
-                <p class="store-list-item-price">$42.89</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="protein" data-item-price="59.99">
-              <div class="store-list-item-img-container">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/91ruQZ2T3jL._SX522_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Nutrabio Classic Whey Protein Powder, 5 lb.</p>
-                <p class="store-list-item-price">$59.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="protein" data-item-price="89.00">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/51w9jfT4AxL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Royal Whey Protein Isolate, 5 lb.</p>
-                <p class="store-list-item-price">$89.00</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-
-            <!-- Chicken -->
-            <li class="store-list-item" data-item-type="chicken" data-item-price="24.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/81W5RmJiQPL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Omaha Steaks 8 Boneless Chicken Breasts, 2 lb. pkg.</p>
-                <p class="store-list-item-price">$24.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="chicken" data-item-price="86.78">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/41bUWP1d3IL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Tyson Red Label, Fully Cooked Grilled Chicken Breast, 40 pieces</p>
-                <p class="store-list-item-price">$86.78</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="chicken" data-item-price="19.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/81tqUd4VXUL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Omaha Steaks 8 Italian Chicken Breasts, 3 oz. ea.</p>
-                <p class="store-list-item-price">$19.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="chicken" data-item-price="99.00">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/31ZDIFly3DL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Today Gourmet - Lemon Herb Chicken, 18 @ 5 oz.</p>
-                <p class="store-list-item-price">$99.00</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="chicken" data-item-price="68.02">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/41UGTuou7rL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Tyson Red Label Golden Crispy Breaded Chicken Breast Patty, 5 lb.</p>
-                <p class="store-list-item-price">$68.02</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="chicken" data-item-price="14.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/81vqw-oa7zL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Omaha Steaks 4 Chicken Fried Chicken, 4.5 oz.</p>
-                <p class="store-list-item-price">$14.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-
-            <!-- Tea -->
-            <li class="store-list-item" data-item-type="tea" data-item-price="10.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/519mpZhG+TL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Twinings of London English Breakfast Black Tea Bags, 100 count</p>
-                <p class="store-list-item-price">$10.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="tea" data-item-price="22.80">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/51XcYsV4RYL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Twinings of London Blackcurrant Breeze Black Tea Bags, 20 count</p>
-                <p class="store-list-item-price">$22.80</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="tea" data-item-price="25.60">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/51Tkm7jQK8L._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Twinings of London Lady Grey Black Tea Bags, 20 count</p>
-                <p class="store-list-item-price">$25.60</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="tea" data-item-price="36.06">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/511NRVx8PoL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Twinings of London Irish Breakfast Black Tea Bags, 50 count</p>
-                <p class="store-list-item-price">$36.06</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="tea" data-item-price="17.64">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/51EpUQ+Jj1L._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Twinings of London Camomile, Honey & Vanilla Herbal Tea, 20 count</p>
-                <p class="store-list-item-price">$17.64</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="tea" data-item-price="20.85">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/51wHht0TFUL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Twinings of London Pure Rooibos Herbal Red Tea Bags, 20 count</p>
-                <p class="store-list-item-price">$20.85</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-
-            <!-- Legos -->
-            <li class="store-list-item" data-item-type="lego" data-item-price="36.74">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/91dKfDlGK2L._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">LEGO Ninjago Movie Green Ninja Mech Dragon 70612, 544 pieces</p>
-                <p class="store-list-item-price">$36.74</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="lego" data-item-price="69.00">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71fmrWjDLUL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">LEGO Ninjago Movie Fire Mech 70615, 944 pieces</p>
-                <p class="store-list-item-price">$69.00</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="lego" data-item-price="81.49">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/91-2LpXYsPL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">LEGO Ninjago Movie Quake Mech 70632, 1202 pieces</p>
-                <p class="store-list-item-price">$81.49</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="lego" data-item-price="68.31">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71tAyit2bVL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">LEGO Ninjago Movie, Garma Mecha Man 70613, 747 pieces</p>
-                <p class="store-list-item-price">$68.31</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="lego" data-item-price="107.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/61NhzsM22GL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">LEGO Ninjago Movie Temple Ultimate Ultimate Weapon 70617, 1403 pieces</p>
-                <p class="store-list-item-price">$107.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="lego" data-item-price="229.95">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71Zglj2BdyL._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">LEGO Ninjago Movie Destiny's Bounty, 2295 pieces</p>
-                <p class="store-list-item-price">$229.95</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-
-            <!-- Other -->
-            <li class="store-list-item" data-item-type="bike" data-item-price="14.99">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/61044OTtt9L._AC_UY218_QL90_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Fox Racing Ranger Mountain Bike Gloves</p>
-                <p class="store-list-item-price">$14.99</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="bike">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71QEzBQ3hGL._AC_UY218_QL90_.jpg" />
-              </div>
-              <div class="store-list-item-meta" data-item-price="54.95">
-                <p class="store-list-item-title">Giro Fixture Bike Helmet with MIPS</p>
-                <p class="store-list-item-price">$54.95</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="bike" data-item-price="1499.00">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71nfqEsAp1L._AC_UL320_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Carbon Road Bike, SAVA HERD 6.0 T800 Carbon Fiber 700C Road Bicycle</p>
-                <p class="store-list-item-price">$1,499.00</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="game" data-item-price="405.00">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/711uJA2i+JL._AC_UY218_QL90_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Nintendo Switch Console w/ Mario Kart 8 Deluxe</p>
-                <p class="store-list-item-price">$405.00</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="game" data-item-price="199.96">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/71qmF0FHj7L._AC_UY218_QL90_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">Nintendo Switch Lite - Turquoise</p>
-                <p class="store-list-item-price">$199.96</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-            <li class="store-list-item" data-item-type="game" data-item-price="49.94">
-              <div class="store-list-item-img-container">
-                <img src="https://m.media-amazon.com/images/I/511M6ML2t7L._AC_UY218_QL90_.jpg" />
-              </div>
-              <div class="store-list-item-meta">
-                <p class="store-list-item-title">The Legend of Zelda: Breath of the Wild - Nintendo Switch</p>
-                <p class="store-list-item-price">$49.94</p>
-                <a class="button store-list-item-to-cart">Add to Cart</a>
-              </div>
-            </li>
-          </ul>
-<!--           <div class="error-message">No items found for your search query. Please try again.</div> -->
-        </div>
-
-        <!-- View Cart Screen Content -->
-        <div id="view-cart" class="list-section">
-          <ul class="cart-progress-container">
-            <li class="cart-progress-indicator active">Review</li>
-            <li class="cart-progress-indicator">Payment</li>
-            <li class="cart-progress-indicator">Complete</li>
-          </ul>
-          <ul id="cart-items" class="store-items list">
-            <!-- To be built while shopping -->
-          </ul>
-<!--           <div class="error-message">No items found in your cart. Let's go shopping!</div> -->
-          <div class="button-container payment-container">
-            <p class="subtotal">Total: <strong>$<span id="cartTotalPrice">0.00</span></strong></p>
-            <button class="checkout-button">Checkout (0)</button>
-          </div>
-        </div>
-      </section>
-    </div>
-  </section>
-
-  <section class="screen info-page active">
-    <div class="screen-content">
-      <img class="logo" alt="logo" src="https://pngimage.net/wp-content/uploads/2018/06/store-logo-png-1.png" />
-
-      <div class="info-page-content">
-        <h1>JS Conf Korea 2019 <span><a href="https://2019.jsconfkorea.com/en/tutorials/" target="_blank">(Sept. 3, 2019)</a></span></h1>
-        <h2>Learn JavaScript by Building a Shopping App in CodePen</h2>
-        <p>Learn by doing! The best way to learn JavaScript is with projects, so we'll be building a shopping app in CodePen.</p>
-        <p>In this tutorial, we'll learn how JavaScript can manipulate data and the DOM to create a multi-screen, dynamic web app, right inside CodePen. We will walk through the app-building process together: from creating app screens in HTML & CSS, to adding
-          basic JavaScript functionality with button presses, to adding basic data processing. This tutorial is aimed at beginner developers.</p>
-        <h2>About <a href="https://aaron.kr" target="_blank">Aaron Snowberger</a></h2>
-        <p>Aaron is a frontend designer/developer who likes to dabble in backend and mobile technologies. His current passions include React, React Native, Node, and the WP REST API. He’s also a Google Certified Trainer who has taught computer science and
-          graphic design in high school since 2013. He's passionate about helping new learners discover the joys of JavaScript.</p>
-        <small><span>Note:</span> Items listed in the Store screen are primarily referenced from <a href="https://amazon.com" target="_blank">Amazon.com</a>, but there are no affiliate links.</small>
+        </section>
       </div>
-    </div>
-  </section>
-
-  <p class="toast">Some event happened!</p>
-</main>
+    </section>
+  
+    <section class="screen info-page active">
+      <div class="screen-content">
+        <img class="logo" alt="logo" src="https://pngimage.net/wp-content/uploads/2018/06/store-logo-png-1.png" />
+  
+        <div class="info-page-content">
+          <h1>JS Conf Korea 2019 <span><a href="https://2019.jsconfkorea.com/en/tutorials/" target="_blank">(Sept. 3, 2019)</a></span></h1>
+          <h2>Learn JavaScript by Building a Shopping App in CodePen</h2>
+          <p>Learn by doing! The best way to learn JavaScript is with projects, so we'll be building a shopping app in CodePen.</p>
+          <p>In this tutorial, we'll learn how JavaScript can manipulate data and the DOM to create a multi-screen, dynamic web app, right inside CodePen. We will walk through the app-building process together: from creating app screens in HTML & CSS, to adding
+            basic JavaScript functionality with button presses, to adding basic data processing. This tutorial is aimed at beginner developers.</p>
+          <h2>About <a href="https://aaron.kr" target="_blank">Aaron Snowberger</a></h2>
+          <p>Aaron is a frontend designer/developer who likes to dabble in backend and mobile technologies. His current passions include React, React Native, Node, and the WP REST API. He’s also a Google Certified Trainer who has taught computer science and
+            graphic design in high school since 2013. He's passionate about helping new learners discover the joys of JavaScript.</p>
+          <small><span>Note:</span> Items listed in the Store screen are primarily referenced from <a href="https://amazon.com" target="_blank">Amazon.com</a>, but there are no affiliate links.</small>
+        </div>
+      </div>
+    </section>
+  
+    <p class="toast">Some event happened!</p>
+  </main>
 
 <script src="js/list-screen.js"></script>
 <script src="js/change-screens.js"></script>
 <script src="js/store-screen.js"></script>
+<script src="js/checkout-screen.js"></script>
 </body>
 </html>
