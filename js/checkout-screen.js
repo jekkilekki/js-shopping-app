@@ -54,14 +54,33 @@ POPUP_WINDOW.onclick = function() {
 POPUP.onclick = function() {
   if ( !popupClicked ) {
   document.querySelector('.module-content').innerHTML = '';
-  POPUP.style.display = 'none';
+  closePopup();
   }
 }
 
+function closePopup() {
+  POPUP.style.display = 'none';
+}
+
 function payForIt() {
-  // POPUP.style.display = 'none';
-  document.querySelector('.module-content').innerHTML = '';
-  POPUP.style.display = 'block';
+  // Reset the header
+  document.querySelector('.module-header').innerHTML = 'Order Placed!';
+  
+  // Add confirmation message
+  document.querySelector('.module-content').innerHTML = '<img src="https://media1.tenor.com/images/cb936926d59302a4944281af827f8992/tenor.gif" width="300" /><p>We are preparing your order for shipment!</p>';
+  
+  var closeButton = document.createElement('button');
+  closeButton.className = 'close-payment-button checkout-button';
+  closeButton.innerHTML = 'Close';
+  closeButton.onclick = function() { closePopup(); };
+  document.querySelector('.module-content').appendChild(closeButton);
+  
+  // "Turn off" module after 5 seconds
+  setTimeout( function() {
+    if ( POPUP.style.display === 'block' ) {
+      POPUP.style.display = 'none';
+    }
+  }, 5000);
 }
 
 function buildCheckoutScreen() {

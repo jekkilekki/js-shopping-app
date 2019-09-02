@@ -766,7 +766,7 @@
   /*---------------------------------------
    * 4. Checkout screen
    *---------------------------------------*/
-   /* Module */
+  /* Module */
   .app-module {
     transition: all 0.3s;
     display: none;
@@ -884,7 +884,9 @@
     font-size: 0.6rem;
     opacity: 0.6;
   }
-  .pay-button {
+  
+  .pay-button,
+  .close-payment-button {
     background: coral;
     margin: 0 auto;
     display: block;
